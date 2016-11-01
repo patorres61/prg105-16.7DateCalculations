@@ -1,0 +1,17 @@
+# Phyllis Torres
+# 16.7 Current Date and Day of the Week Assignment
+# Due 11/10/2016
+
+# import the datetime module
+from datetime import datetime
+
+print('16.7 Current Date and Day of the Week Assignment\n')
+print('Phyllis Torres\n\n')
+
+print('This program will get and print the current date and the day of the week.\n\n')
+
+# get the current date
+today = datetime.today()
+
+# print the curent day of the week in the following format: day of the week, month, day and year
+print ('Today is: ' + today.strftime("%A, %B %d, %Y"))
